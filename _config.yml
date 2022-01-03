@@ -15,7 +15,7 @@
 remote_theme: raviriley/agency-jekyll-theme
 
 url    : "https://joaovaz21.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : João Vaz's Portfolio
 email      : joao.filipe.vaz@outlook.pt #this is also the email contact forms will go to
