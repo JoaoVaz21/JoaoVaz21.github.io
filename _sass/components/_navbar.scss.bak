@@ -60,5 +60,14 @@
         }
       }
     }
+    &.navbar-shrink {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      background-color: $gray-900;
+      .navbar-brand {
+        font-size: 2em;
+        padding: 12px 0;
+      }
+    }
   }
 }
