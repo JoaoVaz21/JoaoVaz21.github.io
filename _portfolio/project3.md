@@ -2,12 +2,12 @@
 title: VR Instructor
 subtitle: Internship project
 image: assets/img/portfolio/03-full.jpg
-alt: 
+video: assets/vids/VrInstructor.mp4
 
 caption:
   title: VR Instructor
   subtitle: Internship project
-  thumbnail: assets/img/portfolio/03-thumbnail.jpg
+  thumbnail: assets/img/portfolio/VrInstructor/thumbnail.png
 ---
 My first Virtual Reality project and first use of the Unreal Engine.
 The objective was to creative some kind of training where FARO users could learn how to properly execute the needed worklows with FARO's robots.

@@ -7,6 +7,7 @@ images:
   - image: assets/img/portfolio/Turtle_Racer/03.png
   - image: assets/img/portfolio/Turtle_Racer/04.png
   - image: assets/img/portfolio/Turtle_Racer/05.png
+number: 2
 
 caption:
   title: Turtle racer

@@ -6,6 +6,14 @@ caption:
   title: Celestialnoid
   subtitle: A breakout clone with procedural generated levels.
   thumbnail: assets/img/portfolio/Celestialnoid/thumbnail.png
+number: 1
+images: 
+  - image: assets/img/portfolio/Celestialnoid/01.png
+  - image: assets/img/portfolio/Celestialnoid/02.png
+  - image: assets/img/portfolio/Celestialnoid/03.png
+  - image: assets/img/portfolio/Celestialnoid/04.png
+  - image: assets/img/portfolio/Celestialnoid/05.png
+
 
 unity_dir: Celestialnoid
 ---
