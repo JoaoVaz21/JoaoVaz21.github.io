@@ -20,6 +20,7 @@ In order to do that a few minigames were crated:
 - Feed the turtle;
 - Clean the turtle;
 - Race;
+
 The player would have to give good food for the turtle to eat and grow. Some food would also make the turtle sick.
 The player would also have to clean the turtle from time to time or it would get sick.
 The race would then take place and the experience the turtle would gain from eating would influence it's results. If the turtle was sick, it would perform worse.
@@ -29,4 +30,5 @@ A shop mechanism to buy items and a friend system was also thought of, in order 
 {:.list-inline}
 - Client: ISEP
 - Technologies: Unity, C#
+- <a href="https://github.com/JoaoVaz21/TurtleRacer" style="color:blue;">Source code</a>
 

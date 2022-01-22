@@ -4,7 +4,7 @@ title: SlimeDungeon
 caption:
   title: SlimeDungeon
   subtitle: A slimish dungeon crawler
-  thumbnail: assets/img/portfolio/Totally_Not_Indiana_Jones/thumbnail.png
+  thumbnail: assets/img/portfolio/SlimeDungeon/thumbnail.png
 
 number: 4
 images: 
@@ -12,7 +12,6 @@ images:
   - image: assets/img/portfolio/SlimeDungeon/02.png
   - image: assets/img/portfolio/SlimeDungeon/03.png
   - image: assets/img/portfolio/SlimeDungeon/04.png
-  - image: assets/img/portfolio/SlimeDungeon/05.png
 
 
 ---
@@ -22,3 +21,4 @@ This prototype was a nice way to get into Unity and get some knowledge on proced
 
 {:.list-inline}
 - Technologies: Unity, C#
+- <a href="https://github.com/JoaoVaz21/SlimeDungeon" style="color:blue;">Source code</a>

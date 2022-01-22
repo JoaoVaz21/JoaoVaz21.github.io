@@ -2,7 +2,7 @@
 title: VR Instructor
 subtitle: Internship project
 image: assets/img/portfolio/03-full.jpg
-video: assets/vids/VrInstructor.mp4
+video: https://www.youtube.com/embed/ftYVEwmGehM
 
 caption:
   title: VR Instructor

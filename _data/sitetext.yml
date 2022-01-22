@@ -41,11 +41,11 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://linkedin.com
+      - url: https://www.linkedin.com/in/joão-vaz-519614153/
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
+      - url: https://github.com/JoaoVaz21
         icon: "fab fa-github"
-      - url: https://instagram.com
+      - url: https://www.instagram.com/justanothergamedev/
         icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN

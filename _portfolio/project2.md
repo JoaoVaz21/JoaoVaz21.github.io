@@ -29,4 +29,5 @@ You can download the game through <a href="https://play.google.com/store/apps/de
 {:.list-inline}
 - Date: October 2021
 - Technologies: Unity, C#, Android
+- <a href="https://github.com/JoaoVaz21/SuperArkanoid" style="color:blue;">Source code</a>
 
