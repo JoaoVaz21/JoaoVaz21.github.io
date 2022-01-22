@@ -9,10 +9,10 @@ caption:
   subtitle: Internship project
   thumbnail: assets/img/portfolio/VrInstructor/thumbnail.png
 ---
-My first Virtual Reality project and first use of the Unreal Engine.
-The objective was to creative some kind of training where FARO users could learn how to properly execute the needed worklows with FARO's robots.
+This project was done during my internish at FARO and it was my first Virtual Reality project and first use of the Unreal Engine.
+The objective was to create some kind of training tool where FARO users could learn how to properly execute the needed workflows with FARO's hardware.
 
-For that I designed and developed a VR application on UE4 that consisted on a series of tutorials that demonstrated what the user would have to do and how to properly do it.
+For that I designed and developed a VR application on UE4 that consisted on a series of tutorials that demonstrated teached the user how to execute the required workflow.
 
 In order to achieve that I had to:
 - Manage sound quotes;

@@ -16,6 +16,7 @@ caption:
 ---
 This was a really quick project done for a class on my master degree. 
 The project consisted in creating a game where the user would learn how to take care of someone or some animal. With this topic in mind, and since I was playing "Magikarp Jump" at the time, I decided to do a game where you would have to take care of a turtle and then put it to race others.
+
 In order to do that a few minigames were crated:
 - Feed the turtle;
 - Clean the turtle;
