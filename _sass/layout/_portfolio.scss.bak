@@ -105,9 +105,6 @@
       cursor: pointer;
 	  margin-bottom: 30px;
     }
-	iframe {
-	margin-bottom: 30px;
-	}
   }
   .close-modal {
     position: absolute;

@@ -59,11 +59,10 @@ function setFocusThickboxIframe() {
 			{% if project.unity_dir %}
 				<div>
 					<button id="playButton"        
-					class="btn btn-primary"
+					class="btn btn-primary closebtn"
 					type="button">Play</button> 
 				</div>
-				<div id="iframeHolder"></div>	
-
+					
 			{% endif %}
 			  <div>
 				<button
