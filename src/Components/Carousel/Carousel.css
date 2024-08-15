@@ -1,0 +1,39 @@
+/* src/Carousel.css */
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    max-width: 400px;
+    position: relative;
+  }
+  
+  .carousel-media {
+    width: 300px;
+    height: 250px;
+
+    object-fit: contain;
+  }
+  
+  .carousel-button {
+    color: white;
+    border: none;
+    cursor: pointer;
+    top: 50%;
+    transition: 0.3s;
+  }
+  
+  .carousel-button:hover {
+    scale: 1.05;
+    transition: 0.3s;
+  }
+  
+
+  
+
+  
+  @media (max-width: 600px) {
+    .carousel-button {
+      padding: 5px;
+    }
+  }

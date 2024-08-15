@@ -1,0 +1,111 @@
+.darkBG {
+    background-color: rgba(0, 0, 0,0.9);
+
+    z-index: 0;
+    height: 100vh;
+    width: 100vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+  }
+  
+  .centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: '100%';
+    height: '100%';
+    background: rgb(33, 32, 32);
+    color: rgb(33, 32, 32);
+    z-index: 10;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+  }
+  
+  .modalHeader {
+    height: 50px;
+    background: rgb(33, 32, 32);
+    overflow: hidden;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .heading {
+    color: white;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .modalContent {
+    margin: 30px;
+    color: white;
+    text-align: justify;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  
+  .modalActions {
+    bottom: 2px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .actionsContainer {
+    display:flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: center;
+  }
+  
+  .playNowBtn {
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 11px 28px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    border: none;
+    color: #fff;
+    background:linear-gradient(200deg, #413a97 5.27%, #4193a3 70.06%);
+    transition: all 0.25s ease;
+  }
+  
+  .playNowBtn:hover {
+    box-shadow: 0 10px 20px -10px #413a97;
+    transform: translateY(-5px);
+    background:linear-gradient(200deg, #413a97 5.27%, #4193a3 70.06%);
+  }
+  .codeBtn {
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 11px 28px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    border: none;
+    color: #fff;
+    background:linear-gradient(200deg, #413a97 5.27%, #4193a3 70.06%);
+    transition: all 0.25s ease;
+  }
+  
+  .codeBtn:hover {
+    box-shadow: 0 10px 20px -10px #413a97;
+    transform: translateY(-5px);
+    background: linear-gradient(200deg, #413a97 5.27%, #4193a3 70.06%);
+  }
