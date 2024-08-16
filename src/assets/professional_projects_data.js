@@ -1,6 +1,8 @@
 import profile_img from '../assets/profile_img.png'
 import menu_close from '../assets/menu_close.svg'
 import vr_intructor from './VrInstructor/thumbnail.png'
+import vr_intructor_video from './VrInstructor/video.mp4'
+
 import solitaireKitchen_thumbnail from './KitchenSolitaire/thumbnail.png'
 import solitaireKitchen_01 from './KitchenSolitaire/01.png'
 import solitaireKitchen_02 from './KitchenSolitaire/02.png'
@@ -43,7 +45,7 @@ const professional_projects_data = [{
         { type: "image", src: solitaireKitchen_03 }
 
     ],
-    p_demo_link: "",
+    p_demo_link: "https://www.arkadium.com/games/solitaire-kitchen/",
 },
 {
     p_number: 2,
@@ -63,7 +65,7 @@ const professional_projects_data = [{
 
 
     ],
-    p_demo_link: "",
+    p_demo_link: "https://www.arkadium.com/games/journey-match-3d/",
 },
 {
     p_number: 3,
@@ -83,11 +85,11 @@ const professional_projects_data = [{
 
 
     ],
-    p_demo_link: "",
+    p_demo_link: "https://www.gamelab.com/games/bubble-shooter-nest",
 },
 {
     p_number: 4,
-    p_name: "Word Wipe",
+    p_name: "Word Wipe Nest",
     p_small_description: "A word finding",
     p_big_description: ["Word Wipe is a game where you need to find words on a grid in order to clear lines.",
     "My job on this game was to implement micro transations and power ups to the game. We came up with a revive that gives more time to the user as well as two boosts. A shuffle boost that takes all the letters on the grid and shuffles them around and a lookup boost that once turned on tells the user if, given a minimum of 3 words, he can still get a bigger word. A whole layout change of the game was also necessary since previously the game only had one boost, the bomb.",
@@ -103,7 +105,7 @@ const professional_projects_data = [{
 
 
     ],
-    p_demo_link: "",
+    p_demo_link: "https://www.gamelab.com/games/word-wipe-nest",
 },
 {
     p_number: 5,
@@ -122,7 +124,7 @@ const professional_projects_data = [{
         { type: "image", src: familyFeud_04 }
 
     ],
-    p_demo_link: "",
+    p_demo_link: "https://www.arkadium.com/games/family-feud/",
 },
 {
     p_number: 6,
@@ -135,10 +137,7 @@ const professional_projects_data = [{
     ],
     p_image: vr_intructor,
     p_images: [
-        { type: "image", src: profile_img },
-        { type: "image", src: menu_close },
-        { type: "image", src: profile_img }
-
+        { type: "video", src: vr_intructor_video },
     ],
 },
 ]
