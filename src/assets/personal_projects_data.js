@@ -15,10 +15,33 @@ import epicGazette_video from './EpicGazette/video.mp4'
 import elfieMurderino_thumbnail from './ElfieMurderino/thumbnail.png'
 import elfieMurderino_01 from './ElfieMurderino/01.png'
 import elfieMurderino_02 from './ElfieMurderino/02.png'
+import sketchLands_thumbnail from './SketchLands/thumbnail.png'
+import sketchLands_01 from './SketchLands/01.png'
+import sketchLands_02 from './SketchLands/02.png'
+import sketchLands_03 from './SketchLands/03.png'
 
+const personal_projects_data = [
+    {
+        p_number: 1,
+        p_name: "Sketch Lands",
+        p_small_description: "Draw your way to the goal!",
+        p_big_description: ["Sketch lands is a small prototype of a 2d platform where you are provided with ink and can draw your own platforms.",
+            "I've started by trying to do my own physics based movement controller, and when that was done I decided to check how to do dynamic meshes, and integrate that as a game mechanic.",
+            "Then, after those features were prototype and developped, I was inspired by the sketches kids do on their school notebooks, and decided to do a game with that in mind for both level design and art.",
+            "For this project I tried to go on a solo dev approach and do all the game design, programming and artwork by myself. Only the music did I use third party assets, but then changed a bit and integrated them in the game.",
+        ],
+        p_image: sketchLands_thumbnail,
+        p_images: [
+            { type: "image", src: sketchLands_01 },
+            { type: "image", src: sketchLands_02 },
+            { type: "image", src: sketchLands_03 },
 
-const personal_projects_data = [{
-    p_number: 1,
+        ],
+        p_demo_link: "https://umaarvore.itch.io/sketchlands",
+        p_source_code: "https://github.com/JoaoVaz21/Sketchlands"
+    },
+    {
+    p_number: 2,
     p_name: "Epic Gazette",
     p_small_description: "An epic point and click newspapper",
     p_big_description: ["This was a project made for the Pizza Jam where we chose the theme 'Crime-Stoppers'.",
@@ -34,7 +57,7 @@ const personal_projects_data = [{
     p_source_code: "https://github.com/JoaoVaz21/PizzaJam"
 },
 {
-    p_number: 2,
+    p_number: 3,
     p_name: "Elfie Murderino",
     p_small_description: "Try to escape Santa's factory",
     p_big_description: ["This was a small project made for the Score space Jam in 48 hours.",
@@ -51,7 +74,7 @@ const personal_projects_data = [{
     p_source_code: "https://github.com/JoaoVaz21/ScoreJam"
 },
 {
-    p_number: 3,
+    p_number: 4,
     p_name: "Celestialnoid",
     p_small_description: "A breakout clone with procedural generated levels.",
     p_big_description: ["My first published game!",
@@ -72,7 +95,7 @@ const personal_projects_data = [{
     p_source_code: "https://github.com/JoaoVaz21/SuperArkanoid"
 },
 {
-    p_number: 4,
+    p_number: 5,
     p_name: "Totally Not Indiana Jones",
     p_small_description: "A top down adventure prototype",
     p_big_description: ["My first game jam project! A few years ago a coleague contacted me to participate in a university game jam. I had never been in a game jam, and never used the technologies mandatory for that game jam: LUA and Pico-8, so I thought it would be a great idea to join :) ", 

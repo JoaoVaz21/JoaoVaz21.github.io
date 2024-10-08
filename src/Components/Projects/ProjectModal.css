@@ -31,12 +31,11 @@
   }
   
   .modalHeader {
-    height: 50px;
+    height: 2.8rem;
     background: rgb(33, 32, 32);
     overflow: hidden;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
-    margin-bottom: 20px;
     margin-top: 10px;
   }
 
@@ -48,12 +47,12 @@
   }
   
   .modalContent {
-    margin: 30px;
+    margin: 1.5rem;
     color: white;
     text-align: justify;
     display:flex;
     flex-direction: column;
-    gap:20px;
+    gap:1rem;
     font-size: 1rem;
     font-weight: 400;
   }
