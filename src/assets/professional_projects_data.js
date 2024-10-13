@@ -33,9 +33,9 @@ const professional_projects_data = [{
     p_number: 1,
     p_name: "solitaire Kitchen",
     p_small_description: "A solitaire game in a kitchen",
-    p_big_description: ["This is a HTML5 solitaire game based on the likes of Grand Harvest Solitaire.", 
-        "It was developed for 5 months and it counts with 150+ levels, different level types and card types as well as boosts and hourly rewards.", 
-        "It was made by a small team with only two developers and my focus was more on the gameplay features as well as in-game animations."
+    p_big_description: ["This is a HTML5 PIXI solitaire game based on the likes of Grand Harvest Solitaire.", 
+        "It was developed in 5 months and it counts with 150+ levels, different level types and card types as well as boosts, hourly rewards, and general progress saving.", 
+        "It was made by a small team with only two software engineers and my focus was more on the gameplay features as well as in-game animations."
     ],
     p_image: solitaireKitchen_thumbnail,
     p_images: [
@@ -51,7 +51,7 @@ const professional_projects_data = [{
     p_number: 2,
     p_name: "Journey Match 3D",
     p_small_description: "A match 3 game",
-    p_big_description: ["Journey match is a match 3 game made in Unity. It started as a match 3 with mahjong tiles made for mobile first and then progressed to be a saga find and match 3 game for HTML5.",
+    p_big_description: ["Journey match is a match 3 game made in Unity. It started as a match 3 with mahjong tiles made for mobile first and then progressed to be a 'find and match 3 objects' game for HTML5.",
         "With hundreds of levels and some power-ups added to the mix we have a recipe for hundres of hours of fun!",
         "In this project I was in a team with 3 software engineers and I focused on prototyping new features and powerups, doing the chest system creating and costumizing the analytics system of the game. This last one was customizable enough to have multiple analytic providers working at the same time."
     ],
@@ -72,8 +72,8 @@ const professional_projects_data = [{
     p_name: "Bubble shooter Nest",
     p_small_description: "A bubble shooting game",
     p_big_description: ["Bubble shooter is a classic genre loved by many. This particular version has been live for a long time and has a big base of players playing it everyday.",
-    "My job on this game was to implement micro transations and power ups to the game. So we came up with 2 boosts, a lightning one that transforms the bubble into lightning and lets it pass throw bubbles and a melt one that melts ice bubbles. A revive was also made for when the user uses all his moves.",
-    "After that the game was improved even more. In order to retain more users a internal framework was used to add both daily rewards and missions."],
+    "Some of my work on this game was to implement micro transations and power ups to the game. Two boosts were implemented. A lightning one that transforms the bubble into lightning and lets it pass throw bubbles and a melt one that melts ice bubbles. A revive was also made for when the user uses all his moves.",
+    "After that, the game was improved even more. In order to retain more users a internal framework was used to add both daily rewards and missions."],
     p_image: bubbleShooter_03,
     p_images: [
         { type: "video", src: bubbleShooter_video },
@@ -92,8 +92,8 @@ const professional_projects_data = [{
     p_name: "Word Wipe Nest",
     p_small_description: "A word finding",
     p_big_description: ["Word Wipe is a game where you need to find words on a grid in order to clear lines.",
-    "My job on this game was to implement micro transations and power ups to the game. We came up with a revive that gives more time to the user as well as two boosts. A shuffle boost that takes all the letters on the grid and shuffles them around and a lookup boost that once turned on tells the user if, given a minimum of 3 words, he can still get a bigger word. A whole layout change of the game was also necessary since previously the game only had one boost, the bomb.",
-    "After that the game was improved even more. In order to retain more users a internal framework was used to add daily rewards."
+    "Some of my work on this game was to implement micro transations and power ups to the game. We came up with a revive that gives more time to the user as well as two boosts. A shuffle boost that takes all the letters on the grid and shuffles them around and a lookup boost that once turned on tells the user if, given a minimum of 3 words, he can still get a bigger word. A whole layout change of the game was also necessary since previously the game only had one boost, the bomb.",
+    "After that, the game was improved even more. In order to retain more users a internal framework was used to add daily rewards."
 ],
     p_image: wordWipe_03,
     p_images: [

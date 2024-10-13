@@ -19,6 +19,11 @@ import sketchLands_thumbnail from './SketchLands/thumbnail.png'
 import sketchLands_01 from './SketchLands/01.png'
 import sketchLands_02 from './SketchLands/02.png'
 import sketchLands_03 from './SketchLands/03.png'
+import arChess_thumbnail from './ARChess/thumbnail.png'
+import arChess_AR from './ARChess/ar.mp4'
+import arChess_Multiplayer from './ARChess/multiplayer.mp4'
+import arChess_1 from './ARChess/01.png'
+import arChess_2 from './ARChess/02.png'
 
 const personal_projects_data = [
     {
@@ -58,12 +63,30 @@ const personal_projects_data = [
 },
 {
     p_number: 3,
+    p_name: "AR Chess",
+    p_small_description: "an AR multiplayer chess experience",
+    p_big_description: ["AR chess was a small attempt to better understand both Unity online multiplayer systems and augmented reality.",
+    "I've started by implemented a normal chess game, with all the rules and a simple AI that moved available pieces at random, just to validate the game states.",
+    "Afterwards, it was time to implement the client and server logic. To keep things simple, one of the players also serves as the host.",
+    "Lastly it was time to implement the AR, for this a new controller was made with some preparations steps before the actual game start, like finding a plane, and placing the board. Afterwards the game is ready to be played and it works just as before.",
+    ],
+    p_image: arChess_thumbnail,
+    p_images: [
+        { type: "video", src: arChess_Multiplayer },
+        { type: "image", src: arChess_1 },
+        { type: "video", src: arChess_AR },
+        { type: "image", src: arChess_2 },
+    ],
+    p_source_code: "https://github.com/JoaoVaz21/ARChess"
+},
+{
+    p_number: 4,
     p_name: "Elfie Murderino",
     p_small_description: "Try to escape Santa's factory",
     p_big_description: ["This was a small project made for the Score space Jam in 48 hours.",
-        "The rules of the Jam were that it had to be an arcade game we it had to integrate a scoreboard using the look locker Api.",
-        "Since there was no theme but it was christmas, my team decided to do a simples escape game where you are an elf tired of the tirany inside of santa's factory.",
-        "We took inspiration on games like 'the hardest game ever', so the mechanics are pretty simple, you only need to move around, but the traps and toys inside the factory won't make it easy for you."
+        "The rules of the Jam were that it had to be an arcade game we it had to integrate a scoreboard using the lootLocker Api.",
+        "Since there was no theme but it was christmas, my team decided to do a simple escape game where you are an elf tired of the tirany inside of santa's factory.",
+        "We took inspiration on games like 'the hardest game ever'. For this reason, the mechanics of the game are pretty straight forward, you just move around, but the way the levels are designed and the obstacles are set up, garantee a curve in challenge and fun."
     ],
     p_image: elfieMurderino_thumbnail,
     p_images: [
@@ -74,7 +97,7 @@ const personal_projects_data = [
     p_source_code: "https://github.com/JoaoVaz21/ScoreJam"
 },
 {
-    p_number: 4,
+    p_number: 5,
     p_name: "Celestialnoid",
     p_small_description: "A breakout clone with procedural generated levels.",
     p_big_description: ["My first published game!",
@@ -95,7 +118,7 @@ const personal_projects_data = [
     p_source_code: "https://github.com/JoaoVaz21/SuperArkanoid"
 },
 {
-    p_number: 5,
+    p_number: 6,
     p_name: "Totally Not Indiana Jones",
     p_small_description: "A top down adventure prototype",
     p_big_description: ["My first game jam project! A few years ago a coleague contacted me to participate in a university game jam. I had never been in a game jam, and never used the technologies mandatory for that game jam: LUA and Pico-8, so I thought it would be a great idea to join :) ", 
