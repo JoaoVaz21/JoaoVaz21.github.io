@@ -28,11 +28,36 @@ import jackOfAllArms_thumbnail from './JackOfAllArms/thumbnail.png'
 import jackOfAllArms_01 from './JackOfAllArms/01.png'
 import jackOfAllArms_02 from './JackOfAllArms/02.png'
 import jackOfAllArms_03 from './JackOfAllArms/03.png'
+import narrativePlugin_thumbnail from './NarrativePlugin/thumbnail.png'
+import narrativePlugin_01 from './NarrativePlugin/01.png'
+import narrativePlugin_02 from './NarrativePlugin/02.png'
+import narrativePlugin_03 from './NarrativePlugin/03.png'
+import narrativePlugin_04 from './NarrativePlugin/04.png'
 
 
 const personal_projects_data = [
     {
         p_number: 1,
+        p_name: "Narrative Plugin",
+        p_small_description: "A simple narrative plugin for Unity",
+        p_big_description: ["A friend of mine wanted a simple way to create dialogues in Unity, so I decided to create a simple plugin that would allow him to do that.",
+            "The plugin easily allows for the creation of dialogues, with multiple options and branching paths. It has an editor to create default dialogues that are randomnly chosen so the character doesn't say always the same thing. It also has the possibility of adding keywords that the player needs to get in order to see those dialogues.",
+            "Each dialogue also has a tree view to easily see the flow of the dialogues and what keyword triggers them.",
+            "Last but not least, it also has a simple scene that not only shows how to use the plugin, but also comes with some simple UI to show the dialogue and dialogue options."
+        ],
+        p_image: narrativePlugin_thumbnail,
+        p_images: [
+            { type: "image", src: narrativePlugin_01 },
+            { type: "image", src: narrativePlugin_02 },
+            { type: "image", src: narrativePlugin_03 },
+            { type: "image", src: narrativePlugin_04 },
+
+        ],
+        p_demo_link: "https://umaarvore.itch.io/narrative-plugin",
+        p_source_code: "https://github.com/JoaoVaz21/Narrative-Plugin"
+    },
+    {
+        p_number: 2,
         p_name: "Sketch Lands",
         p_small_description: "Draw your way to the goal!",
         p_big_description: ["Sketch lands is a small prototype of a 2d platform where you are provided with ink and can draw your own platforms.",
@@ -51,7 +76,7 @@ const personal_projects_data = [
         p_source_code: "https://github.com/JoaoVaz21/Sketchlands"
     },
     {
-        p_number: 2,
+        p_number: 3,
         p_name: "Epic Gazette",
         p_small_description: "An epic point and click newspapper",
         p_big_description: ["This was a project made for the Pizza Jam where we chose the theme 'Crime-Stoppers'.",
@@ -67,7 +92,7 @@ const personal_projects_data = [
         p_source_code: "https://github.com/JoaoVaz21/PizzaJam"
     },
     {
-        p_number: 3,
+        p_number: 4,
         p_name: "Elfie Murderino",
         p_small_description: "Try to escape Santa's factory",
         p_big_description: ["This was a small project made for the Score space Jam in 48 hours.",
@@ -84,7 +109,7 @@ const personal_projects_data = [
         p_source_code: "https://github.com/JoaoVaz21/ScoreJam"
     },
     {
-        p_number: 4,
+        p_number: 5,
         p_name: "AR Chess",
         p_small_description: "An AR multiplayer chess experience",
         p_big_description: ["AR chess was a small attempt to better understand both Unity online multiplayer systems and augmented reality.",
@@ -102,7 +127,7 @@ const personal_projects_data = [
         p_source_code: "https://github.com/JoaoVaz21/ARChess"
     },
     {
-        p_number: 5,
+        p_number: 6,
         p_name: "Jack of All Arms",
         p_small_description: "A hack and slash combo system prototype",
         p_big_description: [
@@ -120,7 +145,7 @@ const personal_projects_data = [
         p_source_code: "https://github.com/JoaoVaz21/Jack-Of-All-Arms"
     },
     {
-        p_number: 6,
+        p_number: 7,
         p_name: "Celestialnoid",
         p_small_description: "A breakout clone with procedural generated levels.",
         p_big_description: ["My first published game!",
@@ -137,11 +162,10 @@ const personal_projects_data = [
 
 
         ],
-        p_demo_link: "https://play.google.com/store/apps/details?id=com.JustAnotherGameDev.Celestialnoid",
         p_source_code: "https://github.com/JoaoVaz21/SuperArkanoid"
     },
     {
-        p_number: 7,
+        p_number: 8,
         p_name: "Totally Not Indiana Jones",
         p_small_description: "A top down adventure prototype",
         p_big_description: ["My first game jam project! A few years ago a coleague contacted me to participate in a university game jam. I had never been in a game jam, and never used the technologies mandatory for that game jam: LUA and Pico-8, so I thought it would be a great idea to join :) ",
