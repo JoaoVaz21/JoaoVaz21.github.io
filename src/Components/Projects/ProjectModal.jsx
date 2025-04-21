@@ -9,17 +9,17 @@ function ProjectModal({ setIsOpen, projectData }) {
     };
     return (
         <>
-            <div className='darkBG' onClick={() => setIsOpen(false)} />
-            <div className='centered'>
+            <div className='modalOverlay' onClick={() => setIsOpen(false)} />
+            <div className='modalContainer'>
                 <div className='modal'>
                     <div className='modalHeader'>
                         <h5 className='heading'>{projectData.p_name}</h5>
                     </div>
-                    {projectData.p_images && <Carousel className= 'carousel' media = {projectData.p_images}/>}
+                    {projectData.p_images && <Carousel className='carousel' media={projectData.p_images} />}
                     <div className='modalContent'>
-                    {projectData.p_big_description.map((paragraph, index) => {
-                    return <p key={index} >{paragraph}</p>
-                })}
+                        {projectData.p_big_description.map((paragraph, index) => {
+                            return <p key={index} >{paragraph}</p>
+                        })}
                     </div>
                     <div className='modalActions'>
                         <div className='actionsContainer'>
