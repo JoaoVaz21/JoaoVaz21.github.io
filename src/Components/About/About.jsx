@@ -19,6 +19,7 @@ const About = () => {
                             But I'm also a huge nerd and gamer so I've always wanted to learn more about games and do some of my own. For that reason not only did I participate
                             in multiple game jams and did some personal projects, but also entered the gaming industry so I could do what I love.
                         </p>
+                        <p>I've been working as a software engineer for more than 7 years now, currently working at Arkadium as a software engineer of the games team, as well as continuing with my personal projeccts.</p>
                     </div>
                 </div>
             </div>

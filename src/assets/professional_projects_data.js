@@ -39,11 +39,34 @@ import connectTheDots_03 from './ConnectTheDots/03.png'
 import connectTheDots_04 from './ConnectTheDots/04.png'
 import connectTheDots_05 from './ConnectTheDots/05.png'
 import connectTheDots_06 from './ConnectTheDots/06.png'
+import microsoftMahjong_thumbnail from './MicrosoftMahjong/thumbnail.png'
+import microsoftMahjong_01 from './MicrosoftMahjong/01.png'
+import microsoftMahjong_02 from './MicrosoftMahjong/02.png'
+import microsoftMahjong_03 from './MicrosoftMahjong/03.png'
+import microsoftMahjong_04 from './MicrosoftMahjong/04.png'
+import microsoftMahjong_05 from './MicrosoftMahjong/05.png'
 
 
 const professional_projects_data = [
     {
-        p_number: 1,
+        p_name: "Microsoft Mahjong",
+        p_small_description: "Play Mahjong Daily Challenges with gorgeous graphics and relaxing sounds.",
+        p_big_description: ["While working at Arkadium, I got the opportunity to partnership with Microsoft and help develop their new version of Mahjong",
+            "The purpose of this project was to first recreate their old Mahjong game on Arkadium's Core engine, with 1 to 1 parity and possibility for players of the old game to migrate their data to the new one.",
+            "Afterwards new features were asked, such as more puzzles, new animations and themes, first user experience and new flow of daily challenges, as well as XP support for when they put the game on their Solitaire App.",
+            "For this project I've worked with 2 other engineers, and I've focused on game analytics, the theme selection screen as well as the implementation of all themes, daily challenges, and implementation of in-game animations and sfx.",
+            "I believe this project was a major hit, not only getting all the stakeholders behind the project very satisfied, but also by increasing the DAU of the game by more than 10% on the first month."
+        ],
+        p_image: microsoftMahjong_thumbnail,
+        p_images: 
+        [{ type: "image", src: microsoftMahjong_01 },
+        { type: "image", src: microsoftMahjong_02 },
+        { type: "image", src: microsoftMahjong_03 },
+        { type: "image", src: microsoftMahjong_04 },
+        { type: "image", src: microsoftMahjong_05 },
+        ]
+    },
+    {
         p_name: "Connect the Dots",
         p_small_description: "Connect all the matching dots!",
         p_big_description: ["This is a HTML5 PIXI solitaire game based on the likes of Flow.",
@@ -64,7 +87,6 @@ const professional_projects_data = [
         p_demo_link: "https://www.arkadium.com/games/solitaire-kitchen/",
     },
     {
-        p_number: 2,
         p_name: "solitaire Kitchen",
         p_small_description: "A solitaire game in a kitchen",
         p_big_description: ["This is a HTML5 PIXI solitaire game based on the likes of Grand Harvest Solitaire.",
@@ -82,7 +104,6 @@ const professional_projects_data = [
         p_demo_link: "https://www.arkadium.com/games/solitaire-kitchen/",
     },
     {
-        p_number: 3,
         p_name: "Word Wipe: Power Play",
         p_small_description: "A twist on the original word wipe",
         p_big_description: ["This is a new version of the classic word wipe game. It was requested to have some changes that would make the game fresh, with the restriction of having one month of development",
@@ -99,7 +120,6 @@ const professional_projects_data = [
         p_demo_link: "https://www.arkadium.com/games/solitaire-kitchen/",
     },
     {
-        p_number: 4,
         p_name: "Journey Match 3D",
         p_small_description: "A match 3 game",
         p_big_description: ["Journey match is a match 3 game made in Unity. It started as a match 3 with mahjong tiles made for mobile first and then progressed to be a 'find and match 3 objects' game for HTML5.",
@@ -119,7 +139,6 @@ const professional_projects_data = [
         p_demo_link: "https://www.arkadium.com/games/journey-match-3d/",
     },
     {
-        p_number: 5,
         p_name: "Bubble shooter Nest",
         p_small_description: "A bubble shooting game",
         p_big_description: ["Bubble shooter is a classic genre loved by many. This particular version has been live for a long time and has a big base of players playing it everyday.",
@@ -139,7 +158,6 @@ const professional_projects_data = [
         p_demo_link: "https://www.gamelab.com/games/bubble-shooter-nest",
     },
     {
-        p_number: 6,
         p_name: "Word Wipe Nest",
         p_small_description: "A word finding game",
         p_big_description: ["Word Wipe is a game where you need to find words on a grid in order to clear lines.",
@@ -159,7 +177,6 @@ const professional_projects_data = [
         p_demo_link: "https://www.gamelab.com/games/word-wipe-nest",
     },
     {
-        p_number: 7,
         p_name: "Family Feud",
         p_small_description: "A question game",
         p_big_description: ["Family Feud is a game based on the hit show Family Feud. In this game needs to try to guess what x amount of people answered to a certain question. Give more correct answers than your opponent (and faster) and you will be the winner.",
@@ -178,7 +195,6 @@ const professional_projects_data = [
         p_demo_link: "https://www.arkadium.com/games/family-feud/",
     },
     {
-        p_number: 8,
         p_name: "VR Instructor",
         p_small_description: "A virtual reality instructor",
         p_big_description: ["This project was done during my internish at FARO and it was my first Virtual Reality project and first use of the Unreal Engine.",

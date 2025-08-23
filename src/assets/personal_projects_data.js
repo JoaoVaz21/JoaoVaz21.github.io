@@ -33,11 +33,48 @@ import narrativePlugin_01 from './NarrativePlugin/01.png'
 import narrativePlugin_02 from './NarrativePlugin/02.png'
 import narrativePlugin_03 from './NarrativePlugin/03.png'
 import narrativePlugin_04 from './NarrativePlugin/04.png'
-
+import vroomityLoops_thumbnail from './VroomityLoops/thumbnail.png'
+import vroomityLoops_01 from './VroomityLoops/01.png'
+import vroomityLoops_02 from './VroomityLoops/02.png'
+import vroomityLoops_03 from './VroomityLoops/03.png'
+import gtg6_thumbnail from './GTG6/thumbnail.png'
+import gtg6_01 from './GTG6/01.png'
+import gtg6_02 from './GTG6/02.png'
+import gtg6_03 from './GTG6/03.png'
 
 const personal_projects_data = [
+    {p_name: "Vroomity Loops",
+        p_small_description: "A game about roundabouts",
+        p_big_description: ["This was a game for the GMTK 2025 game jam, where the theme was Loop.",
+            "After a ton of discussion because we didn't want to be one of the thousands making a rogue-like, we decided to make a game about driving through a roundabout, something that portuguese people like us are very familiar with.",
+            "The game consistem in 12 different levels where the player would controll a car that would constantly more around the roundabout, being up to the player which lane to take in order to not only take the correct exit, but also not crash into other cars.",
+            "This was a fun little project where I had some time to remember some circular movement math, and we got a ton of great reviews from the community, asking for more levels and a complete version of the game."
+        ],
+        p_image: vroomityLoops_thumbnail,
+        p_images: [
+            { type: "image", src: vroomityLoops_01 },
+            { type: "image", src: vroomityLoops_02 },
+            { type: "image", src: vroomityLoops_03 },
+        ],
+        p_demo_link: "https://umaarvore.itch.io/vroomity-lopps",
+    },
     {
-        p_number: 1,
+        p_name: "GTG6",
+        p_small_description: "Gotta touch grass 6",
+        p_big_description: ["This was a game made for the Shovel Jam 2025, where the theme was Just Get Started.",
+            "After some brainstorming we decided to make a game about the player trying to start the famous game GTG6, but the game won't let it do it so easily, running away, placing obstacles in front of it, making the player play other games instead etc etc.",
+            "Overall it was a fun experience, where I continued to grow my point and click knowledge and we got placed in 116 out of 1100+ entries."
+        ],
+        p_image: gtg6_thumbnail,
+        p_images: [
+            { type: "image", src: gtg6_01 },
+            { type: "image", src: gtg6_02 },
+            { type: "image", src: gtg6_03 },
+        ],
+        p_demo_link: "https://umaarvore.itch.io/gtg6",
+        p_source_code: "https://github.com/JoaoVaz21/inboundGameJam"
+    },
+    {
         p_name: "Narrative Plugin",
         p_small_description: "A simple narrative plugin for Unity",
         p_big_description: ["A friend of mine wanted a simple way to create dialogues in Unity, so I decided to create a simple plugin that would allow him to do that.",
@@ -53,11 +90,10 @@ const personal_projects_data = [
             { type: "image", src: narrativePlugin_04 },
 
         ],
-        p_demo_link: "https://umaarvore.itch.io/narrative-plugin",
+        p_demo_link: "https://umaarvore.itch.io/gotta-touch-grass-6",
         p_source_code: "https://github.com/JoaoVaz21/Narrative-Plugin"
     },
     {
-        p_number: 2,
         p_name: "Sketch Lands",
         p_small_description: "Draw your way to the goal!",
         p_big_description: ["Sketch lands is a small prototype of a 2d platform where you are provided with ink and can draw your own platforms.",
@@ -76,7 +112,6 @@ const personal_projects_data = [
         p_source_code: "https://github.com/JoaoVaz21/Sketchlands"
     },
     {
-        p_number: 3,
         p_name: "Epic Gazette",
         p_small_description: "An epic point and click newspapper",
         p_big_description: ["This was a project made for the Pizza Jam where we chose the theme 'Crime-Stoppers'.",
@@ -92,7 +127,6 @@ const personal_projects_data = [
         p_source_code: "https://github.com/JoaoVaz21/PizzaJam"
     },
     {
-        p_number: 4,
         p_name: "Elfie Murderino",
         p_small_description: "Try to escape Santa's factory",
         p_big_description: ["This was a small project made for the Score space Jam in 48 hours.",
@@ -109,7 +143,6 @@ const personal_projects_data = [
         p_source_code: "https://github.com/JoaoVaz21/ScoreJam"
     },
     {
-        p_number: 5,
         p_name: "AR Chess",
         p_small_description: "An AR multiplayer chess experience",
         p_big_description: ["AR chess was a small attempt to better understand both Unity online multiplayer systems and augmented reality.",
@@ -127,7 +160,6 @@ const personal_projects_data = [
         p_source_code: "https://github.com/JoaoVaz21/ARChess"
     },
     {
-        p_number: 6,
         p_name: "Jack of All Arms",
         p_small_description: "A hack and slash combo system prototype",
         p_big_description: [
@@ -145,7 +177,6 @@ const personal_projects_data = [
         p_source_code: "https://github.com/JoaoVaz21/Jack-Of-All-Arms"
     },
     {
-        p_number: 7,
         p_name: "Celestialnoid",
         p_small_description: "A breakout clone with procedural generated levels.",
         p_big_description: ["My first published game!",
@@ -165,7 +196,6 @@ const personal_projects_data = [
         p_source_code: "https://github.com/JoaoVaz21/SuperArkanoid"
     },
     {
-        p_number: 8,
         p_name: "Totally Not Indiana Jones",
         p_small_description: "A top down adventure prototype",
         p_big_description: ["My first game jam project! A few years ago a coleague contacted me to participate in a university game jam. I had never been in a game jam, and never used the technologies mandatory for that game jam: LUA and Pico-8, so I thought it would be a great idea to join :) ",
